@@ -39,6 +39,22 @@ body {
   color: #555;
 }
 
+
+.input-group input[type="checkbox"] {
+  accent-color: #2e8b57;
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.input-group label[for="rememberMe"] {
+  display: inline;
+  font-weight: normal;
+  color: #333;
+  vertical-align: middle;
+}
+
 .input-group input {
   width: 100%;
   padding: 10px;
