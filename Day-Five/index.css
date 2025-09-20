@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  margin: 20px;
+}
+
+.report-card {
+  width: 95%;
+  max-width: 800px;
+  margin: 24px auto;
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  padding: 18px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 14px;
+  font-size: 20px;
+}
+
+/* Student info table */
+.student-info {
+  width: 100%;
+  margin-bottom: 12px;
+}
+.student-info td {
+  padding: 6px 8px;
+  font-size: 14px;
+}
+
+/* Marks table */
+table.marks {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+table.marks th,
+table.marks td {
+  border: 1px solid #cbd5e1;
+  padding: 8px;
+  text-align: center;
+}
+table.marks th {
+  background: #e6eef8;
+  font-weight: bold;
+}
+.summary td {
+  font-weight: bold;
+  background: #f1f5f9;
+}
+.align-right {
+  text-align: right;
+}
