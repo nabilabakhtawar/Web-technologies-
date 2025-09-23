@@ -8,6 +8,7 @@ table.marks {
 }
 thead{
     background-color: darkgray;
+    font-size: 16px;
 }
 
 th,
@@ -19,4 +20,5 @@ th,
 tfoot{
     
     background-color: #cbd5e1;
+    font-size: 16px;
 }
